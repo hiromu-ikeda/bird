@@ -70,6 +70,7 @@
       font-size: 12px;
       line-height: 1.25;
       margin: 8%;
+      font-weight: 400;
       .info {
         border: 1px solid #707070;
         border-radius: 13px;
@@ -132,7 +133,100 @@
 
 // tab
 @media screen and (min-width:376px) {
-  
+  .container {
+    gap: 3.59% 0;
+    header {
+      h1 {
+        margin: 2.39%;
+        font-size: 30px;
+      }
+      .menu {
+        width: 21.58%;
+        margin-right: 1.79%;
+        li {
+          margin-top: 30px;
+          font-size: 16px;
+        }
+      }
+    }
+    main {
+      display: grid;
+      grid-template-columns: 4.79% 1fr 4.79% 1fr 4.79%;
+      grid-template-rows: 2.8% 6% 49.4%;
+      .main_title {
+        grid-column: 2 / 5;
+        font-size: 24px;
+        margin: 0;
+      }
+      .birdImg {
+        grid-column: 2;
+        grid-row: 3;
+        .mainImg {
+          img {
+            width: 100%;
+            height: auto;
+          }
+          .subImg {
+            img {
+              width: 33%;
+              height: auto;
+            }
+          }
+        }
+      }
+    }
+    article {
+      grid-column: 4;
+      grid-row: 3;
+      font-size: 16px;
+      line-height: 1.5;
+      margin: 0;
+      .info {
+        border-radius: 10px;
+        padding: 10px;
+        margin-bottom: 30px;
+        font-size: 16px;
+      }
+      .discription {
+        font-size: 16px;
+      }
+      .button_back {
+        width: 9.83%;
+        padding: 0 20px;
+        height: 10% !important;
+      }
+    }
+  }
+  .sns {
+    margin-top: 111.3px;
+    margin-bottom: 0 !important;
+    .sns_logo {
+      width: 33.81% !important;
+      padding-top: 16px;
+    }
+  }
+  footer {
+    margin-top: 40px;
+    background-color: #aaa;
+    .footer_title {
+      color: #fff;
+      margin: 1.19% 0 2.38% 4.79%;
+      background-color: initial !important;
+      font-size: 15px;
+    }
+    .footerContents {
+      margin: 2.5% 0 0 12.27% !important;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      .footer_content {
+        margin-left: 4.79%;
+        color: #fff !important;
+        line-height: 1.5;
+        font-size: 16px;
+      }
+    }
+  }
 }
 // .container {
 //   font-family: heisei-maru-gothic-std, sans-serif;
@@ -140,6 +234,7 @@
 //   font-style: normal;
 //   display: grid;
 //   width: 100%;
+
 //   grid-template-columns: 100%;
 //   // grid-template-rows: 50px 356px auto 65px 160px;
 //   gap: 3.59% 0;
