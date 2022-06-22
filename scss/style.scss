@@ -1,23 +1,207 @@
+//SP
 .container {
+  font-family: heisei-maru-gothic-std, sans-serif;
+  font-weight: 400;
+  font-style: normal;
   display: grid;
-  width: 834px;
-  grid-template-columns: 834px;
-  grid-template-rows: 50px 356px auto 65px 120px;
+  width: 375px;
+  grid-template-columns: 375px;
+  grid-template-rows: 79px 160px 806.5px 129px 208px;
+  a {
+    text-decoration: none;
+  }
+  a:visited {
+    color: inherit;
+  }
   header {
-  }
-  .topImg {
-
-  }
-  main {
-    display: grid;
-    grid-template-columns: 417px;
-    grid-template-rows: auto auto;
-    .title {
-      grid-column: 1 / 3;
+    display: flex;
+    justify-content: space-between;
+    h1 {
+      margin: 45px 15px 15px 15px;
+      color: #81A238;
+      font-size: 20px;
+      font-weight: 800;
+    }
+    .menu {
+      list-style: none;
+      display: flex;
+      width: 123px;
+      justify-content: space-around;
+      margin-right: 18px;
+      color: #707070;
+      li {
+        margin-top: 55px;
+        font-size: 10px;
+      }
     }
   }
-  .sns {
+  .topImg {
+    img {
+      width: 375px;
+      height: auto;
+    }
   }
-  footer {
+  main {
+    grid-row: 3;
+    .title {
+      margin: 20px;
+      color: #6C4747;
+      font-size: 22px;
+      font-weight: 800;
+    }
+    .birdImg {
+      .mainImg {
+        img {
+          width: 375px;
+        }
+      }
+      .subImg {
+        display: flex;
+        justify-content: space-between;
+        img {
+          width: 121px;
+          height: auto;
+        }
+      }
+    }
+    article {
+      color: #676262;
+      font-size: 12px;
+      line-height: 1.25;
+      margin: 30px;
+      .info {
+        border: 1px solid #707070;
+        border-radius: 13px;
+        padding: 12px;
+      }
+      .discription {
+        margin-top: 18px;
+      }
+      .button_back {
+        margin-top: 11px;
+        width: 82px;
+        height: 24px;
+        border: 1px solid #707070;
+        border-radius: 13px;
+        text-align: center;
+        margin-left: auto;
+        vertical-align: middle;
+      }
+    }
   }
 }
+// .container {
+//   font-family: heisei-maru-gothic-std, sans-serif;
+//   font-weight: 400;
+//   font-style: normal;
+//   display: grid;
+//   width: 100%;
+//   grid-template-columns: 100%;
+//   // grid-template-rows: 50px 356px auto 65px 160px;
+//   gap: 3.59% 0;
+//   header {
+//     display: flex;
+//     justify-content: space-between;
+//     h1 {
+//       margin: 2.39%;
+//       color: #81A238;
+//       font-size: 30px;
+//       font-weight: 800;
+//     }
+//     .menu {
+//       list-style: none;
+//       display: flex;
+//       width: 21.58%;
+//       justify-content: space-between;
+//       margin-right: 1.79%;
+//       color: #707070;
+//       li {
+//         margin-top: 30px;
+//       }
+//     }
+//   }
+//   .topImg {
+//     img {
+//       width: 100%;
+//       height:auto;
+//     }
+//   }
+//   main {
+//     display: grid;
+//     grid-template-columns: 4.79% 1fr 4.79% 1fr 4.79%;
+//     // grid-template-rows: 24px 30px 412px;
+//     .title {
+//       grid-column: 2 / 5;
+//       font-weight: 800;
+//       font-size: 24px;
+//       color: #767373;
+//     }
+//     .birdImg {
+//       grid-column: 2;
+//       grid-row: 3;
+//       img {
+//         width: 100%;
+//         height: auto;
+//       }
+//       .subImg {
+//         display: flex;
+//         justify-content: space-between;
+//         img {
+//           width: 33%;
+//           height: auto;
+//         }
+//       }
+//     }
+//     article {
+//       grid-column: 4;
+//       grid-row: 3;
+//       color: #676262;
+//       font-size: 16px;
+//       line-height: 1.5;
+//       .info {
+//         border: 1px solid #707070;
+//         border-radius: 10px;
+//         padding: 10px;
+//         margin-bottom: 30px;
+//       }
+//       .button_back {
+//         width: 9.83%;
+//         border: 1px solid #707070;
+//         border-radius: 13px;
+//         text-align: center;
+//         margin-left: auto;
+//         margin-top: 10px;
+//         padding: 0 20px;
+//       }
+//     }
+//   }
+//   .sns {
+//     .sns_logo {
+//       width: 33.81%;
+//       display: flex;
+//       justify-content: space-between;
+//       margin: 0 auto;
+//       border-top: 1px solid #707070;
+//       padding-top: 16px;
+//     }
+//   }
+//   footer {
+//     margin-top: 40px;
+//     padding-bottom: 40px;
+//     background-color: #aaa;
+//     .title {
+//       color: #fff;
+//       margin: 10px 0 20px 40px;
+//     }
+//    .footerContents {
+//     display: grid;
+//     grid-template-columns: 1fr 1fr 1fr;
+//     grid-template-rows: 1fr 1fr;
+//     .content {
+//       margin-left: 4.79%;
+//       color: #fff;
+//       line-height: 1.5;
+//     }
+//    } 
+//   }
+// }
