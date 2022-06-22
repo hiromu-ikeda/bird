@@ -6,7 +6,7 @@
   display: grid;
   width: 375px;
   grid-template-columns: 375px;
-  grid-template-rows: 79px 160px 806.5px 129px 208px;
+  grid-template-rows: 79px 160px 776.5px 129px 208px;
   a {
     text-decoration: none;
   }
@@ -43,7 +43,7 @@
   }
   main {
     grid-row: 3;
-    .title {
+    .main_title {
       margin: 20px;
       color: #6C4747;
       font-size: 22px;
@@ -85,7 +85,40 @@
         border-radius: 13px;
         text-align: center;
         margin-left: auto;
-        vertical-align: middle;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .back {
+          line-height: 1;
+        }
+      }
+    }
+  }
+  .sns {
+    .sns_logo {
+      width: 251px;
+      display: flex;
+      justify-content: space-between;
+      margin: 0 auto;
+      border-top: 1px solid #707070;
+      padding-top: 11.5px;
+    }
+  }
+  footer {
+    .footer_title {
+      height: 38px;
+      padding-left: 30px;
+      background-color: #B4AEAE;
+      font-size: 15px;
+      line-height: 38px;
+      color: white;
+    }
+    .footerContents {
+      margin: 16px 0 0 46px;
+      .footer_content {
+        font-size: 13px;
+        line-height: 29px;
+        color: #3C3939;
       }
     }
   }
